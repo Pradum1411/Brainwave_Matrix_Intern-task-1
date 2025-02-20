@@ -1,0 +1,23 @@
+.about_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    margin: 19px;
+    padding: 10px;
+}
+.about_inside{
+    margin: 19px;
+    border: 1px solid black;
+    box-shadow: inset 3px 5px 5px black;
+    padding: 10px;
+}
+@media screen and (max-width:700px) {
+    .about_grid{
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: auto;
+        margin: 19px;
+        padding: 10px;
+    }
+    
+}

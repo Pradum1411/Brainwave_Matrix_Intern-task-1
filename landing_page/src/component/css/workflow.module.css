@@ -1,0 +1,24 @@
+.workflow_grid1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    /* background-color: rgb(57, 55, 55); */
+    color: white;
+    
+}
+.right_grid{
+    margin: 20px 70px 0px 70px;
+
+}
+
+@media screen and (max-width:700px){
+    .workflow_grid1{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        /* background-color: rgb(57, 55, 55); */
+        color: white;
+        
+    }
+    
+}
